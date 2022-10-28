@@ -3,34 +3,37 @@
 <head>
   <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/normalize.css" />
       <link rel="stylesheet" href="css/styles.css" /> 
       <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet" />
     <title>My Portfolio</title>
   </head>
   <!--end head-->
-<body>
-    <div id="container-nav">
+  <body>
+  <div id="container-nav">
     <nav>
       <a class="link-item" href="#container-section">Home</a>
       <a class="link-item" href="#about">About Me</a>
-      <a class="link-item" href="#intro">Intro to Coding</a>
-      <a class="link-item" href="#dg">Disc Golf</a>
-      <a class="link-item" href="#forms">Forms</a>
-      </nav>
-      </div>
-      <!--end navigation-->
-    <div id="container-section">
-          <section>
-            <img id="image" src="images/at-at-hoth.jpg"/>
-              <h1 id="title">
-                Joshua Walker
-                  </h1>
-                <div id="information">
-              <h3 id="sub-head">
-                <a href="mailto:jwalk99star@gmail.com" class="email">
-                  jwalk99star@gmail.com
-                </a>
+        <div class="dropdown">
+          <button><a class="link-item" href="#projects">Projects</a></button>
+            <div class="dropdown-options">
+            <a class="link-item-drop" href="#tech-doc">Technical Documentation</a><br>
+            <a class="link-item-drop" href="#landing">Landing Pages</a><br>
+            <a class="link-item-drop" href="#forms">Forms</a><br>
+          </div>
+        </div>
+      <a class="link-item" href="#contact">Contact</a>
+    </nav>
+  </div>
+  <!--end navigation-->
+  <div id="container-section">
+    <section>
+      <img id="image" src="images/at-at-hoth.jpg"/>
+        <h1 id="title">Joshua Walker</h1>
+          <div id="information">
+            <h3 id="sub-head">
+             <a href="mailto:jwalk99star@gmail.com" class="email">
+              jwalk99star@gmail.com</a>
             <hr/>208-296-1180</h3>
           </div>
         </section>
@@ -42,33 +45,42 @@
           <p class="about-text">
             Hello, I’m Josh! I’m a motivated, reliable, and personable Freelance Web Developer who loves to learn and creatively solve problems. I’m a team player, yet independently responsible. When I’m not coding, I’m enjoying time with my family, playing disc golf, keeping up chops on my drum set, and watching anything and everything Star Wars related.</p>
             <p class="skills-text">Skills:  HTML5, CSS, GitHub, detail-oriented, efficient & effective communicator</p>
-      </div>
-      <!--end about -->
+          </div>
+          <!--end about -->
+    <article id="projects" class="projects">Projects</article>
+    <!--end "projects" label-->
+  <p class="project-header" id="tech-doc">Technical Documentation</p>
     <div class="itc">
       <a href="https://jwalk99star.github.io/IntroToCoding/" target="_blank">
         <div class="intro" id="intro">
-          <img class="laptop" src="./images/laptopPixels-LtR-cropped.jpg" alt="laptop w/pixels" height="180"/>  
-            <p class="intro-text">Intro to Coding</p>
-          </div>
+          <img class="laptop" src="./images/laptopPixels-LtR-cropped.jpg" alt="laptop w/pixels" height="180"/>
+         <p class="intro-text">Intro to Coding</p>
+       </div>
+     </a>
+   </div>
+   <!--end "intro to coding"-->
+  <p class="project-header" id="landing">Landing Pages</p>
+  <p class="project-label">Product Page & Tribute Page</p>
+    <div class="dg" id="dg">
+      <div id="three-pack">
+        <a href="https://jwalk99star.github.io/Innova3pack/" target="_blank" class="three-pack">
+          <img src="./images/DG-Sunset-crop.jpg" alt="disc golf sunset" class="img1" height="250"/>
+          <p class="innova-text">Innova 3 Pack</p>
         </a>
       </div>
-      <!--end ITC-->
-    <div class="dg" id="dg">
-        <div id="three-pack">
-          <a href="https://jwalk99star.github.io/Innova3pack/" target="_blank" class="three-pack">
-              <img src="./images/DG-Sunset-crop.jpg" alt="disc golf sunset" class="img1" height="250"/>
-              <p class="innova-text">Innova 3 Pack</p>
-            </a>
-          </div>
-        <div id="basket">
-          <a href="https://jwalk99star.github.io/TributePage/" target="_blank" >
-              <img src="./images/DG-Basket.jpeg" alt="disc golf basket" class="img2" height="250"/>
-            <p class="tribute-text">Tribute</p>
-          </a>
-        </div>          
+      <!--end "innova 3 pack"-->
+    <div id="basket">
+      <a href="https://jwalk99star.github.io/TributePage/" target="_blank">
+        <img src="./images/DG-Basket.jpeg" alt="disc golf basket" class="img2" height="250"/>
+          <p class="tribute-text">Tribute</p>
+        </a>
       </div>
-      <!--end disc golf-->
-    <div id="forms" class="forms">
+      <!--end "tribute"-->
+    </div>
+    <!--end disc golf-->
+  <p class="project-header" id="forms">Forms</p>
+  <p class="project-label">Survey  &  Application</p>
+    <div  class="forms">
       <div id="restaurant-survey" class="survey">
         <a href="https://jwalk99star.github.io/RestaurantSurvey/" target="_blank">
           <h2 class="forms-text">Restaurant Survey</h2>
@@ -89,35 +101,36 @@
         <!--end application-->
       </div>
       <!--end forms-->
-
-    <div class="footer">
-        <br>
-      <div class="top-text">Click on the links below to take a closer look at my code on GitHub, my profile on LinkedIn, or my certifications at freeCodeCamp.</div>
-
-        <div class="links">
-          
-          <div class="github-logo">
-            <a href="https://github.com/jwalk99star" target="_blank">
-              <img src="./images/GitHub-Emblem.png" alt="github logo" height="120">
-            </a>
-          </div>
-          
-          <div class="linkedin-logo">
-            <a href="https://www.linkedin.com/in/joshua-walker-59462180/" target="_blank">
-              <img src="./images/linkedin-logo-transparent-png-16.png" alt="" height="50">
-            </a>
-          </div>
-          
-          <div class="fcc-logo">
-            <a href="https://www.freecodecamp.org/jwalk99star" target="_blank">
-              <img src="./images/misuse-3.png" alt="fcc logo" height="100">
-            </a>
-          </div>
-          
+    <div id="contact" class="footer">
+      <br>
+        <div class="foot-text">Click on the links below for a closer look at my code on GitHub, my profile on LinkedIn, or my certifications at freeCodeCamp.
         </div>
-        <!--end links-->
+      <div class="links">
+        <div id="github-logo" class="link-logo" >
+            <a href="https://github.com/jwalk99star" target="_blank">
+            <img src="./images/GitHub-Emblem.png" alt="github logo" height="120">
+            </a>
+          </div>          
+        <div id="linkedin-logo" class="link-logo">
+            <a href="https://www.linkedin.com/in/joshua-walker-59462180/" target="_blank">
+            <img src="./images/linkedin-logo-transparent-png-16.png" alt="" height="50">
+            </a>
+          </div>          
+        <div id="fcc-logo" class="link-logo">
+            <a href="https://www.freecodecamp.org/jwalk99star" target="_blank">
+            <img src="./images/misuse-3.png" alt="fcc logo" height="100">
+            </a>
+          </div>
+        </div>
+        <!--end links-->          
+      <div class="foot-text">
+        Thank you for taking time to view my work. <br> 
+        I can be reached at: <br> 
+        <a href="mailto:jwalk99star@gmail.com" class="email">jwalk99star@gmail.com</a><br>
+        208-296-1180 <br>
+        </div>
       </div>
       <!--end footer-->
-  </body>
-<!--end body-->
-</html>
+    </body>
+    <!--end body-->
+  </html>
