@@ -1,5 +1,5 @@
 * {
-  outline: dashed;
+  outline: dashd;
 }
 html {
   font-family: 'Raleway' sans-serif;
@@ -28,6 +28,7 @@ nav {
 .link-item {
   color: black;
   font-size: 1.5em;
+  font-weight: bold;
   padding-right: 1em;
   text-decoration: none;
 }
@@ -62,6 +63,7 @@ button {
   background-color: #bebebe;
   color: black;
   font-size: 1.5em;
+  font-weight: bold;
   line-height: 2em;
   text-decoration: none;
 }
