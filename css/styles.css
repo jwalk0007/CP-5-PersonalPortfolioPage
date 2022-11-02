@@ -1,5 +1,5 @@
 * {
-  outline: dashd;
+  outline: dashed;
 }
 html {
   font-family: 'Raleway' sans-serif;
@@ -273,10 +273,10 @@ img.img2:hover + .tribute-text {
   align-items: top;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 2em auto 6em;
   scroll-margin-top: 13em;
-  width: 40%;
+  width: 60%;
 }
 .forms-text {
   color: black;
