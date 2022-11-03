@@ -357,6 +357,11 @@ background-color:#6282ae;
   background-color:#bebebe;
 }
 
+@media (max-width: 850px) {
+  .projects {
+    scroll-margin-top: 3em;
+  }
+}
 
  @media (max-width: 395px) {
   body {
@@ -425,12 +430,14 @@ background-color:#6282ae;
   .about-text {
     font-family: 'tahoma', sans-serif;
     font-size: 1.2em;
-    margin: -9em 0 0;
+    margin: -9em auto 0;
+    text-align: center;
   }
   .skills-text {
     font-family: 'tahoma', sans-serif;
     font-size: 1.2em;
     margin: 1em auto;
+    text-align: center;
   }
 
   .projects {
