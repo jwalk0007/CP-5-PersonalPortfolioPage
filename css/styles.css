@@ -5,7 +5,6 @@ html {
   font-family: 'Raleway' sans-serif;
 }
 
-
 #container-nav {
   background: #bebebe;
   display: flex;
@@ -42,14 +41,10 @@ nav {
   display: inline-block;
   position: relative;
 }
-button {
-  background-color: #bebebe;
-  border: none;
-}
 .dropdown-options {
   background: #bebebe;
   display: none;
-  font-size: 1em;
+  font-size: .8em;
   padding-top: -.2em;
   overflow: auto;
   padding: .5em 0 0 1em;
@@ -71,7 +66,6 @@ button {
   background-color: #bebebe;
   color: blue;
 }
-
 
 #container-section {
   background: #6b82ae;
@@ -118,7 +112,6 @@ h3 {
   color: blue;
 }
 
-
 .about {
   background: linear-gradient(rgb(193, 221, 230), transparent);
   border-radius: 10px;
@@ -136,15 +129,15 @@ img {
 .about-me {
   font-size: 2em;
   font-weight: bold;
-  margin: .65em auto 0;
+  margin: .65em auto;
+  margin-bottom: 5em;
 }
 .about-text {
-  margin: -8em 2em 2em 18em;
+  margin: -8em 2em 2em 15em;
 }
 .skills-text {
-  margin: -2em 2em 2em 18em;
+  margin: -1em 2em 2em 15em;
 }
-
 
 .projects {
   align-content: center;
@@ -172,7 +165,6 @@ img {
   margin: 0;
   text-align: center;
 }
-
 
 .intro {
   align-items: center;
@@ -224,7 +216,7 @@ img {
 }
 .innova-text {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   font-size: 2em; 
   font-style: italic;
   left: 35%;
@@ -254,7 +246,7 @@ img.img1:hover + .innova-text {
 }
 .tribute-text {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   font-size: 2em; 
   font-style: italic;
   left: 80%;
@@ -269,7 +261,6 @@ img.img1:hover + .innova-text {
 img.img2:hover + .tribute-text {
   color: blue;
 }
-
 
 .forms {
   align-items: top;
@@ -291,7 +282,6 @@ img.img2:hover + .tribute-text {
   color: blue;
 }
 
-
 .survey {
   border: rgb(170, 170, 170);
   border-radius: 10px;
@@ -307,7 +297,6 @@ img.img2:hover + .tribute-text {
   border: inset;
   border-width: 25px;
 }
-
 
 .application {
   border: rgb(170, 170, 170);
@@ -327,21 +316,20 @@ img.img2:hover + .tribute-text {
   border-width: 25px;
 }
 
-
 .footer {
   background-color: #6282ae;
   bottom: 0;
-  height: 54em;
+  height: 50em;
   width: 100%;
 }
-.foot-text {
+.foot-text-top, .foot-text-bottom {
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5em;
-  height: 6em;
+  height: 5em;
   justify-content: center;
   line-height: 2em;
-  margin: 3em auto 3em;
+  margin: 3em auto;
   text-align: center;
   width: 100%;
 }
@@ -349,16 +337,17 @@ img.img2:hover + .tribute-text {
   align-content: center;
   display: flex;
   justify-content: space-evenly;
-  margin: 2em auto;
+  margin: 0 auto 0 2em;
 }
 #github-logo {
-  padding: .5em 1em;
+  padding: 1em 1em;
 }
 #linkedin-logo {
   padding: 2.5em 2em 0 2em;
 }
 #fcc-logo {
-  padding: 1em 0;
+  padding: 1em;
+
 }
 .link-logo {
 border-radius: 20px;
@@ -368,5 +357,138 @@ background-color:#6282ae;
   background-color:#bebebe;
 }
 
-/* all above was committed to GH oct 28 1:40pm
- MQs only!!! to follow */
+
+ @media (max-width: 395px) {
+  body {
+    height: 844px;
+    width: 390px;
+  }
+  #container-nav {
+    align-content: center;
+    height: 3em;
+    width: 100%;
+  }
+  nav {
+    align-content: center;
+    height: 3em;
+    justify-content: space-evenly;
+    margin: auto 0;
+    width: 100%;
+  }
+  .link-item {
+    font-size: 1em;
+  }
+  .dropdown {
+    top: 0;
+  }
+  .dropdown-options {
+    width: 13em;
+  }
+  .link-item-drop {
+    font-size: 1em;
+  }
+
+  #container-section {
+    padding-top: 3rem;
+    scroll-margin-top: 3em;
+    width: 100%;
+  }
+  section {
+    padding: 20px 0;
+    width: 100%;
+  }
+  #image {
+    width: 50%;
+  }
+  #title {
+    font-size: 3rem;
+    margin: 20px 0 0 0;
+  }
+  h3 {
+    margin: 10px 0;
+  }
+
+  .about {
+    margin-left: 12%;
+    scroll-margin-top: 4em;
+    width: 80%;
+  }
+  img {
+    height: 85px;
+  }
+  .picture {
+    height: 85px;
+  }
+  .about-me {
+    font-size: 2.5em;
+  }
+  .about-text {
+    font-family: 'tahoma', sans-serif;
+    font-size: 1.2em;
+    margin: -9em 0 0;
+  }
+  .skills-text {
+    font-family: 'tahoma', sans-serif;
+    font-size: 1.2em;
+    margin: 1em auto;
+  }
+
+  .projects {
+    width: 100%;
+    scroll-margin-top: 2.5em;
+  }
+
+  .intro {
+    width: 80%;
+  }
+  .laptop {
+    width: 30%;
+  }
+  .intro-text {
+    font-size: 1.5em;
+    margin-left: 10%;
+  }
+  .dg {    
+    width: 80%;
+  }
+  .innova-text, .tribute-text {
+    font-size: 1em;
+  }
+  .forms {
+    flex-direction: column;
+    width: 52%;
+  }
+  .footer {
+    height: 80em;
+    top: 3em;
+    scroll-margin-top: 4em;
+    width: 100%;
+  }
+  .foot-text-top {
+    margin: auto auto 6em auto;
+  }
+
+  .links {
+    flex-direction: column;
+    height: 35em;
+    margin: 3em auto 0;
+    top: 8em;
+    width: 75%;
+  }
+
+
+  .link-logo {
+    margin: auto;
+  }
+
+  #linkedin-logo img {
+    height: 40px;
+    padding-bottom: 2em;
+  }
+
+  .foot-text-bottom {
+    margin: 1em auto 1em auto;
+  }
+
+
+ }
