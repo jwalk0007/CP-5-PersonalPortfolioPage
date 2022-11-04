@@ -395,6 +395,8 @@ background-color:#6282ae;
     width: 100%;
   }
 
+
+
   .footer {
     height: 40em;
     margin: 0 auto;
@@ -489,7 +491,7 @@ background-color:#6282ae;
   .skills-text {
     font-family: 'tahoma', sans-serif;
     font-size: 1.2em;
-    margin: 1em auto;
+    margin: 1em .5em;
     text-align: center;
   }
 
