@@ -406,6 +406,15 @@ background-color:#6282ae;
   .innova-text {
     left: 30%;
 }
+
+.img2 {
+  clip-path: polygon(
+  15% 0%,
+  100% 0%,
+  100% 100%,
+  35% 100%);
+  width: 100%;
+}
   .tribute-text {
     left: 70%;
 }
