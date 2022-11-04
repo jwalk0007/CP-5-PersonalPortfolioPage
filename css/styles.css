@@ -483,7 +483,7 @@ background-color:#6282ae;
   .about-text {
     font-family: 'tahoma', sans-serif;
     font-size: 1.2em;
-    margin: -9em auto 0;
+    margin: -9em .5em 0;
     text-align: center;
   }
   .skills-text {
@@ -519,6 +519,9 @@ background-color:#6282ae;
   .forms {
     flex-direction: column;
     width: 52%;
+  }
+  .forms img {
+    height: 80px;
   }
 
   .footer {
