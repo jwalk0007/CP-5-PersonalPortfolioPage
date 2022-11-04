@@ -395,7 +395,6 @@ background-color:#6282ae;
     width: 100%;
   }
 
-
   .img1 {
     width: 125%;
   }
@@ -406,7 +405,6 @@ background-color:#6282ae;
   .innova-text {
     left: 30%;
 }
-
 .img2 {
   clip-path: polygon(
   15% 0%,
@@ -418,7 +416,6 @@ background-color:#6282ae;
   .tribute-text {
     left: 70%;
 }
-
 
   .footer {
     height: 40em;
