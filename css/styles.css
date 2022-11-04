@@ -395,7 +395,18 @@ background-color:#6282ae;
     width: 100%;
   }
 
-/* disc golf @ mw 900px*/
+
+.innova-text, .tribute-text {
+  font-size: .5em;
+  font-weight: bold;
+}
+.innova-text {
+  left: 30%;
+}
+.tribute-text {
+  left: 70%;
+}
+
 
   .footer {
     height: 40em;
@@ -511,9 +522,6 @@ background-color:#6282ae;
     margin-left: 6%;
   }
 
-
-
-  /* disc golf @ mw 415px*/
   .dg {    
     width: 80%;
   }
@@ -527,11 +535,6 @@ background-color:#6282ae;
   .tribute-text {
     left: 75%;
   }
-  /* disc golf @ mw 415px*/
-
-
-
-
 
   .forms {
     flex-direction: column;
@@ -541,12 +544,6 @@ background-color:#6282ae;
     height: 80px;
   }
 
-
-
-
-
-
-  
   .footer {
     height: 60em;
     top: 3em;
