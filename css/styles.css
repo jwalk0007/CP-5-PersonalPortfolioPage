@@ -190,7 +190,6 @@ img {
   color:blue;
 }
 
-
 .dg {
   background: linear-gradient(white, rgba(212, 212, 212, 1) 70%);  
   box-shadow: 10px 5px 5px rgb(212, 212, 212);
@@ -357,17 +356,70 @@ background-color:#6282ae;
   background-color:#bebebe;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+
+  #image {
+    width: 60%;
+  }
+
+  .about {
+    margin-left: 10%;
+    scroll-margin-top: 4em;
+    width: 80%;
+  }
+  img {
+    height: 120px;
+  }
+  .picture {
+    height: 120px;
+    margin-left: 5em;
+  }
+  .about-me {
+    font-size: 3em;
+  }
+  .about-text {
+    font-family: 'tahoma', sans-serif;
+    font-size: 1.2em;
+    margin: -9em 1em 0;
+    text-align: center;
+  }
+  .skills-text {
+    font-family: 'tahoma', sans-serif;
+    font-size: 1.3em;
+    margin: -1em auto;
+    text-align: center;
+  }
+
   .projects {
     scroll-margin-top: 3em;
+    width: 100%;
   }
+
+  .footer {
+    height: 40em;
+    margin: 0 auto;
+  }
+  .links {
+    margin: -3em 0 -3em;
+  }
+
+  #github-logo img {
+    height: 50px;
+    margin-top: .5em;
+  }
+  #linkedin-logo img {
+    height: 30px;
+    margin-top: -.5em;
+  }
+  #fcc-logo img{
+    height: 50px;
+    margin-top: .5em;
+  }
+
 }
 
- @media (max-width: 395px) {
-  body {
-    height: 844px;
-    width: 390px;
-  }
+ @media (max-width: 415px) {
+
   #container-nav {
     align-content: center;
     height: 3em;
@@ -377,7 +429,7 @@ background-color:#6282ae;
     align-content: center;
     height: 3em;
     justify-content: space-evenly;
-    margin: auto 0;
+    margin: auto 0 auto 1em;
     width: 100%;
   }
   .link-item {
@@ -423,6 +475,7 @@ background-color:#6282ae;
   }
   .picture {
     height: 85px;
+    margin-left: 0;
   }
   .about-me {
     font-size: 2.5em;
@@ -453,20 +506,23 @@ background-color:#6282ae;
   }
   .intro-text {
     font-size: 1.5em;
-    margin-left: 10%;
+    margin-left: 6%;
   }
+
   .dg {    
     width: 80%;
   }
   .innova-text, .tribute-text {
     font-size: 1em;
   }
+
   .forms {
     flex-direction: column;
     width: 52%;
   }
+
   .footer {
-    height: 80em;
+    height: 60em;
     top: 3em;
     scroll-margin-top: 4em;
     width: 100%;
@@ -477,20 +533,25 @@ background-color:#6282ae;
 
   .links {
     flex-direction: column;
-    height: 35em;
-    margin: 3em auto 0;
+    height: 20em;
+    margin: 1em auto 0;
     top: 8em;
     width: 75%;
   }
-
-
   .link-logo {
-    margin: auto;
+    margin: 0 auto;
   }
 
+  #github-logo img {
+    height: 60px;
+    width: 120px;
+  }
   #linkedin-logo img {
-    height: 40px;
+    height: 30px;
     padding-bottom: 2em;
+  }
+  #fcc-logo img {
+    height: 50px;
   }
 
   .foot-text-bottom {
