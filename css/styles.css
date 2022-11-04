@@ -396,15 +396,18 @@ background-color:#6282ae;
   }
 
 
-.innova-text, .tribute-text {
-  font-size: .5em;
-  font-weight: bold;
+  .img1 {
+    width: 125%;
+  }
+  .innova-text, .tribute-text {
+    font-size: .85em;
+    font-weight: bold;
 }
-.innova-text {
-  left: 30%;
+  .innova-text {
+    left: 30%;
 }
-.tribute-text {
-  left: 70%;
+  .tribute-text {
+    left: 70%;
 }
 
 
